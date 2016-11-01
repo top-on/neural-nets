@@ -88,9 +88,10 @@ def optimize_MLPClassifier_layout(x, y, depth, width):
     params = {"hidden_layer_sizes": adjacent_hidden_layer_sizes(depth, width)}
     
     # define general model
-    model = MLPClassifier(solver='lbfgs', 
+    model = MLPClassifier(solver='lbfgs', # 'adam' for larger data sets
                           alpha=1e-5, 
-                          random_state=1)
+                          random_state=1,
+                          learning_rate='adaptive')
     
     # test model instancces with GridSearch (5-fold cross-validation)
     grid = GridSearchCV(model, 
