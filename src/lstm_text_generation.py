@@ -12,18 +12,17 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation
 from keras.layers import LSTM
 from keras.optimizers import RMSprop
-from keras.utils.data_utils import get_file
 import numpy as np
 import random
 import sys
 import os
 import h5py
 
-# suppress recommendation to compile tensorflow
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-path = get_file('nietzsche.txt', cache_dir='data', cache_subdir='nietzsche',
-                origin='https://s3.amazonaws.com/text-datasets/nietzsche.txt')
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # suppress TF installation warning
+corpus = 'zarathustra'  # alternatives: nietzsche / zarathustra
+
+path = os.path.join('data', 'lstm_text_generation', corpus + '.txt')
 text = open(path).read().lower()
 print('corpus length:', len(text))
 
@@ -103,14 +102,14 @@ def generate_text(model):
 
 
 # train the model, output generated text after each iteration
-for i in range(1, 11):
+for i in range(1, 2):
     print()
     print('-' * 50)
     print('Iteration', i)
     # load saved weights or train
     model_path = os.path.join('models',
-                              'lstm_nietzsche',
-                              'lstm_nietzsche_' + str(i) + '.hdf5')
+                              'lstm_text_generation',
+                              'lstm_' + corpus + '_' + str(i) + '.hdf5')
     if os.path.isfile(model_path):
         print("Loading model weights from file:" + model_path)
         model.load_weights(model_path)
