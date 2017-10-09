@@ -102,7 +102,7 @@ def generate_text(model):
 
 
 # train the model, output generated text after each iteration
-for i in range(1, 2):
+for i in range(1, 81):
     print()
     print('-' * 50)
     print('Iteration', i)
