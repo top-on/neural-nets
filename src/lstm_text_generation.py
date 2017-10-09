@@ -20,7 +20,8 @@ import h5py
 
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # suppress TF installation warning
-corpus = 'zarathustra'  # alternatives: nietzsche / zarathustra
+# available corpuses: nietzsche / zarathustra / zarathustra_ger
+corpus = 'zarathustra_ger'
 
 path = os.path.join('data', 'lstm_text_generation', corpus + '.txt')
 text = open(path).read().lower()
@@ -101,6 +102,9 @@ def generate_text(model):
             sys.stdout.flush()
 
 
+# selecting iterations to generate text for
+get_text = []  # [1, 5, 10, 15, 20]
+
 # train the model, output generated text after each iteration
 for i in range(1, 81):
     print()
@@ -118,7 +122,9 @@ for i in range(1, 81):
         model.fit(X, y,
                   batch_size=128,
                   epochs=1)
-    # save weights
-    model.save_weights(model_path)
-    # generate text from model
-    generate_text(model)
+        # save weights
+        model.save_weights(model_path)
+
+    # generate text from model (if in get_text list)
+    if i in get_text:
+        generate_text(model)
