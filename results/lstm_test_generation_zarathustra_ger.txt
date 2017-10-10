@@ -1,0 +1,334 @@
+corpus length: 520935
+total chars: 56
+nb sequences: 173632
+
+--------------------------------------------------
+Iteration 10
+
+
+----- diversity: 0.2
+----- Generating with seed: "st, so
+hast du sie mit niemandem gemeins"
+st, so
+hast du sie mit niemandem gemeinschlechten und schaffenden und menschen und schaffenden geschweigen.
+
+also sprach zarathustra und geschweiten und seine höheren
+menschen.
+
+aber ich will ich die gesichter und menschen und menschen!
+
+der menschen sie selber der geschwäcker und schaffenden sein sie und schlechte sein und schaffenden und schwere stehn und willen allein diesen schaffenden, dass ich das herz willen das herz und schaffen
+
+----- diversity: 0.5
+----- Generating with seed: "st, so
+hast du sie mit niemandem gemeins"
+st, so
+hast du sie mit niemandem gemeinst von grund diese seele: und erröther, wer ist ihm meine brüder. der zeit, dass ich nicht wohl mir diesem stein selber und seinen glücken nichts nicht und wegen ist der fliegen aus deiner höheren menschen: kalt zu seiner
+seele zu sich selber geboren und wolken wird der
+starn: - das alle traur ist der kleinen seelen und meiner verstehen.
+
+also sprach zarathustra.
+
+
+
+vom leiber wahrheit sich sagte s
+
+----- diversity: 1.0
+----- Generating with seed: "st, so
+hast du sie mit niemandem gemeins"
+st, so
+hast du sie mit niemandem gemeinst
+geschtent.
+
+also dass die welt sünde zu früchteten.
+
+blelb stehen sie war, um spinen
+vom lernen.
+
+heutläst zum
+welchen will, durchstückem
+will, einem berugst will: - so aber solcher erst nur das ist mir gut: zu denkent " : der thorkeit wisselt euch mit eigene
+meisch. es
+geschah noch sein, und ich _sol__ ende wilden die höhle, dass ich dass diesem lachenhabe, wirr, auch mit tanzzt mir."
+
+und, dar
+
+----- diversity: 1.2
+----- Generating with seed: "st, so
+hast du sie mit niemandem gemeins"
+st, so
+hast du sie mit niemandem gemeinschwecken.
+
+denn
+ihren spiel zu dauert und mildig macht auf dem ihn wuch, siege euch: sein jeder euch junst glaubt dem sprecheuten: anwöwelckend die guten missjocht und falschen blitze bilg das ich mich und schaften!
+
+diess aber ihrem
+weltlich mensch, wohlam gus wohl
+lüste! sage ich hochz sei, es hin
+leben! gar
+ämmlaus _dir_ lust sehr auch! hier ein heilbgt alles menschen! oder auch thater! waraner
+
+
+--------------------------------------------------
+Iteration 20
+Loading model weights from file:models/lstm_text_generation/lstm_zarathustra_ger_20.hdf5
+
+
+----- diversity: 0.2
+----- Generating with seed: "n fest mir
+machte, wie es einem alten pa"
+n fest mir
+machte, wie es einem alten parmen, das ist es das sie ein geschmack.
+
+das ist es das alles schaffen und scham zu seinem geistes zu seinen weisheit.
+
+"seinen freund, ein geschmack der einsamen und scham und scham ist, die einen geschlütter und schaffen und schaffen und böse": -
+
+- "bist du noch alles vor deiner scham und scham vor einem schlimmste sein und scham und scham in die selber und seinen freund, der scham ist der scha
+
+----- diversity: 0.5
+----- Generating with seed: "n fest mir
+machte, wie es einem alten pa"
+n fest mir
+machte, wie es einem alten parmen, das sind sich an seinem geistes wissen.
+
+aber sie selber deine liebende, alle eins, was einen leidenden erstickte, sprach ein baut machte auf den geistes vor deinem freiheit vor mir zur kunst, wie viel der thieres allem geist der
+schaffen: so wollt ihr ein thun und stehen, geschmack ist, aber mir doch die welt und einseigerlassen sei und der winter läuft der geschmack, wie ein läuft ferwen u
+
+----- diversity: 1.0
+----- Generating with seed: "n fest mir
+machte, wie es einem alten pa"
+n fest mir
+machte, wie es einem alten parmgeist dieser fragen logen und verleichen und
+ab, der weisheit finde; bist du nun kleine setzulesei mehr sein haltn.
+
+war mein notgenum von götter und freue!
+
+selis die _geist_die_ kliegt, darum fand ich euch, hier war, als ich bei seiner alten betelles _bein
+zugle"ohn zu ohne nach die auge.
+    amen still, diese mit ehrlichen zurückbier:
+
+also geschlich 
+und als zuzieng, so beword
+ein, weee: -
+
+
+
+----- diversity: 1.2
+----- Generating with seed: "n fest mir
+machte, wie es einem alten pa"
+n fest mir
+machte, wie es einem alten panschen auf
+immer wohlnu!
+
+das erzährt oder das paberkei zeicht ein
+arauch, als zarathustra -
+
+- - warg ruffend: wideror in, wenn ich mein wort schr stercht; jenedigkeit listigen und zwanitnen,
+herrdsheie alle
+voll alle,
+fragt.
+
+so stariich sollt ihr ein brücker,
+oh ebend von eerem augewird ab: a geredet zarathustra in lüge schlechtigst,
+    trauzig: mit euch nur dieser zog hat ihr insicht
+und älle
+
+
+--------------------------------------------------
+Iteration 40
+Loading model weights from file:models/lstm_text_generation/lstm_zarathustra_ger_40.hdf5
+
+
+----- diversity: 0.2
+----- Generating with seed: " ich sterben,
+sterben, als euch sagen, w"
+ ich sterben,
+sterben, als euch sagen, wenn er nicht mit dem freunde, dass ich die grossen schlafen und wahrheit!" -
+
+also sprach zarathustra.
+
+
+
+das ist die welt der gestern, dass er sich der weisen und schmachte der weisheit auf der grossen starken schlafen und schmachte des geistes. und was willst du nicht auf der grossen schlafenden seine leidenden seinen herzen und auf der weisen seine weisheit auf der gereden und schlimmen nacht u
+
+----- diversity: 0.5
+----- Generating with seed: " ich sterben,
+sterben, als euch sagen, w"
+ ich sterben,
+sterben, als euch sagen, was trighen ihr weisen und einem wegen sonnen!
+
+wer das alles gehen gegen den weg vor euch der alten zu sonnen!
+
+"dass er nicht mit dem ferne und wahrfenten, dass
+hier seine narren herzen und aller glück und der stumm sein meinen fleuchte!
+
+- der schauen und selbst aber ist der freiheit!
+
+oh meine seelen wirst du diese langen und auf dem einsamust!
+
+die ernebe waren ist das krankhaäst
+im gerechten 
+
+----- diversity: 1.0
+----- Generating with seed: " ich sterben,
+sterben, als euch sagen, w"
+ ich sterben,
+sterben, als euch sagen, wenn also anbsückte, und wenn er denn erst
+umsvollen, desshütem
+mäunruchdes im gleichniss, sie einer im reden: da wärhst du ereiend wie
+geist und reich denn zu mir ich; und hieit.
+
+ich be wider gehen
+
+halbreist volle.
+
+leinem
+äugige noch sollst du mir doch seine ausgemanne auffuschstern!
+
+
+tugend bin unternemst aber endlich drückt und währte ag vom legreit: hatte er zu ohren _wird. -
+
+""uns mitleid
+
+----- diversity: 1.2
+----- Generating with seed: " ich sterben,
+sterben, als euch sagen, w"
+ ich sterben,
+sterben, als euch sagen, wo der jugendt, gratächdem, grober-dass - hinkeitlichen fand, ihr todfenden und gegeb deiner zendens, ohem noth wir
+gam verstands-radenschrazhes auch seine gäber. ver, sondern auch unerfinger! kommt!"
+
+ein
+narrheit als pöbelns; dass hat ist, schwanger - _mich_
+vorfederten
+gelebens, - i vertragen im küheifel - als jetzt wille glatzes treugange? es alsoich.
+
+"fiechte zwange; aber ich gleich mit eigni
+
+
+--------------------------------------------------
+Iteration 60
+Loading model weights from file:models/lstm_text_generation/lstm_zarathustra_ger_60.hdf5
+
+
+----- diversity: 0.2
+----- Generating with seed: "ste, schwärzeste in den schlund
+kriechen"
+ste, schwärzeste in den schlund
+kriechen und der schlange seine welt gehen die welt, der schaffenden und schlecht meiner seele und weiss ist der schlange seinen weisen: das selber will ich das dich! ihr schreib-
+stand ihn seine seele sein aus dem geisten.
+
+und also sprach zarathustra.
+
+
+
+von der einsamkeit sind die welt geschreiben und schlechte seinen freund sein wollen und schlechte des geistes, das ist das gesindel als eine stunden u
+
+----- diversity: 0.5
+----- Generating with seed: "ste, schwärzeste in den schlund
+kriechen"
+ste, schwärzeste in den schlund
+kriechend und seinen klinde aus dem menschen-dir und das gelächter seinen glück selber steigt.
+
+so sprach er noch als erden.
+
+noch nicht zu seinem geist der tugend in den schlange, was mich einen guten und schlecht auch die meinem schlange: "hier ist eine tugend aus euch der besten stimme - das eigne sicher alles grosse lehren, wie du besser der tode deine seele sein des geistes.
+
+wahrlich, wer mir deinen
+
+----- diversity: 1.0
+----- Generating with seed: "ste, schwärzeste in den schlund
+kriechen"
+ste, schwärzeste in den schlund
+kriechen! wo alles kast wolle den im glrickte meinem unreine sein
+eignen bishenswptöten ist alle
+wieder - lieber den händenhafte im gelosszuran
+seiner werthen; sie ge über die beste mir immer die traurenwzweie zu dem schlange und gespeichen von heimlich beschreichte mir nur unsellere in die wele: _wir sollleich
+mir grundwarften und den schiffen bisher werden, darum verliert sie
+mit: die dich nach demallen
+
+----- diversity: 1.2
+----- Generating with seed: "ste, schwärzeste in den schlund
+kriechen"
+ste, schwärzeste in den schlund
+kriechen liebe? bin solmend es bleiche, da mordenmenbelt heute, also: dass siendes
+-
+andre rundete ich "alle lelber dlasch-brünstigkeit meinen
+herzen. dann von liche
+bewegte er schon nahe.
+
+-
+
+
+1jödzugelübt du ersche_zugleich.
+
+aber die tapfer moch, denes
+selber vor deinen
+erhoch ihm: eben meer deine beine vor dem mittager winde, sein, wer sind der in, als zarathustra feindlich otn. also kommte ich den, w
+
+
+--------------------------------------------------
+Iteration 80
+Loading model weights from file:models/lstm_text_generation/lstm_zarathustra_ger_80.hdf5
+
+
+----- diversity: 0.2
+----- Generating with seed: "d was er auch hat, gestohlen hat er's.
+
+"
+d was er auch hat, gestohlen hat er's.
+
+also sprach zarathustra.
+
+
+
+wie sich der weisen: das bitt und weiber und schwer zu nicht schweigender und schweigender an den schlaf der schwere seinen gott der schatten nicht weiter zu tragen und schwer seine tugend und weisen ist er schon zu tragen, dass du an der thränen seine leute: dass sie sich den berg ist er schon zu todten, die weisheit alles verschweren seiner schlange: "wenn er sich der
+
+----- diversity: 0.5
+----- Generating with seed: "d was er auch hat, gestohlen hat er's.
+
+"
+d was er auch hat, gestohlen hat er's.
+
+alles aber bist du die hörte und die erfinder und
+stürmen wurden an dem thur.
+
+wir kleiner weisheit sie ihrer leichte grosse zeiten - das ist der fröhlicher geschurgelte zu seiner hände sich zu mir zu verstehlt, gojenst in der erde zu hindurst, so will ich ihn keine schwacher kindern, ihr höheren menschen gehört das
+meiner kleinen seelen und war in seine schatzer feind und hörst du uns verschweren
+
+----- diversity: 1.0
+----- Generating with seed: "d was er auch hat, gestohlen hat er's.
+
+"
+d was er auch hat, gestohlen hat er's.
+
+allem muth
+schmackünn sei der gute "nicht feuchte menschengeht,
+alles mit verhacht schrafe - wuth, doch fremd und
+mit schmutzigenoffen werde!
+
+da bei ihr bewinkte, lügenebte sich der mensch hat nehmen!
+
+alle wolken _schung_keigf_? wie morhest du! auch nichts ist mir dünkte er betropfen. so hindere werde euter, und sie auf dem kommen; und fufse sich sie heute in der allen berg hinüberschreit in wil
+
+----- diversity: 1.2
+----- Generating with seed: "d was er auch hat, gestohlen hat er's.
+
+"
+d was er auch hat, gestohlen hat er's.
+
+aber also dreufends_nicht sie verhcht still: zu einem blutige hat seim amhasfenbartige.
+
+"ich hin auh düstere gochte an! das heimlichkeit, reilert setzenniss.
+
+asse niebe if, umderkei
+stark's klugn durch die mitte hüssen im konnen an.
+
+schwer! - wieses er gute
+nicht.
+
+nämlich, heiligw; er aber selbst, dass ich kein weiden und niedrigkenmaben sied!
+
+ringer hier tilun! wur selbinkst du, lein.
+
+- _ ü
