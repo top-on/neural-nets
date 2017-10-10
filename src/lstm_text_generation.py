@@ -104,10 +104,10 @@ def generate_text(model):
 
 # selecting iterations to generate text for
 # get_text = [1, 5, 10, 15, 20]
-get_text = [10, 20, 40, 60, 80]
+get_text = [40, 80, 120, 160]
 
 # train the model, output generated text after each iteration
-for i in range(1, 81):
+for i in range(1, 161):
     print()
     print('-' * 50)
     print('Iteration', i)
