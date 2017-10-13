@@ -23,22 +23,24 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'  # suppress TF installation warning
 # available corpuses: nietzsche / zarathustra / zarathustra_ger
 corpus = 'zarathustra_ger'
 
+# load corpus
 path = os.path.join('data', 'lstm_text_generation', corpus + '.txt')
 text = open(path).read().lower()
 print('corpus length:', len(text))
 
+# assign integer value to each character
 chars = sorted(list(set(text)))
 print('total chars:', len(chars))
 char_indices = dict((c, i) for i, c in enumerate(chars))
 indices_char = dict((i, c) for i, c in enumerate(chars))
 
-# cut the text in semi-redundant sequences of maxlen characters
+# cut the text in semi-redundant character sequences
 maxlen = 40
 step = 3
 sentences = []
 next_chars = []
 for i in range(0, len(text) - maxlen, step):
-    sentences.append(text[i: i + maxlen])
+    sentences.append(text[i: i + maxlen])  # i = 1
     next_chars.append(text[i + maxlen])
 print('nb sequences:', len(sentences))
 
@@ -57,13 +59,11 @@ model = Sequential()
 model.add(LSTM(128, input_shape=(maxlen, len(chars))))
 model.add(Dense(len(chars)))
 model.add(Activation('softmax'))
-
-optimizer = RMSprop(lr=0.01)
-model.compile(loss='categorical_crossentropy', optimizer=optimizer)
+model.compile(loss='categorical_crossentropy', optimizer=RMSprop(lr=0.01))
 
 
 def sample(preds, temperature=1.0):
-    # helper function to sample an index from a probability array
+    """Sample an index from a probability array (the net's prediction)."""
     preds = np.asarray(preds).astype('float64')
     preds = np.log(preds) / temperature
     exp_preds = np.exp(preds)
@@ -119,8 +119,8 @@ for i in range(1, 161):
         print("Loading model weights from file:" + model_path)
         model.load_weights(model_path)
     else:
-        print("No weights saved. Computing...")
-        model.fit(X, y,
+        print("No weights saved at location " + model_path + ". Computing...")
+        model.fit(X, y,  # X.shape
                   batch_size=128,
                   epochs=1)
         # save weights
