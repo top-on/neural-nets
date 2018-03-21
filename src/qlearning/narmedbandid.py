@@ -24,6 +24,7 @@ def bandid(arm: int):
 model = Sequential()
 model.add(Dense(24, input_dim=1, activation="relu"))
 model.add(Dense(48, activation="relu"))
+model.add(Dense(48, activation="relu"))
 model.add(Dense(24, activation="relu"))
 model.add(Dense(1))
 model.compile(loss="mean_squared_error",
