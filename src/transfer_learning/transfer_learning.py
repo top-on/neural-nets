@@ -39,7 +39,6 @@ def preprocess_image(img_path: PIL.Image.Image) -> np.ndarray:
     """Preprocess image for ResNet50."""
     img = load_img(img_path, target_size=(224, 224))
     img = img_to_array(img)
-    # img = img.reshape((1, img.shape[0], img.shape[1], img.shape[2]))
     return img
 
 
