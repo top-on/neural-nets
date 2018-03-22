@@ -1,6 +1,6 @@
 src/.ipynb_checkpoints/
 
-data/*
+data/
 logs/*
 
 .vscode*
