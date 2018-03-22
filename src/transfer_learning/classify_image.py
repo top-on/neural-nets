@@ -9,11 +9,11 @@ import numpy as np
 
 def main():
     model = keras.applications.resnet50.ResNet50(include_top=True,
-                                                weights='imagenet',
-                                                input_tensor=None,
-                                                input_shape=None,
-                                                pooling=None,
-                                                classes=1000)
+                                                 weights='imagenet',
+                                                 input_tensor=None,
+                                                 input_shape=None,
+                                                 pooling=None,
+                                                 classes=1000)
 
     # images
     path = '../../data/images/tire/'
