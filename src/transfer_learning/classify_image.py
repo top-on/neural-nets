@@ -1,4 +1,4 @@
-# PREDICT IMAGE CONTENT
+"""PREDICT IMAGE CONTENT"""
 
 import os
 import keras
