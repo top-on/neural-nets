@@ -7,6 +7,7 @@ from keras.preprocessing.image import img_to_array
 from keras.applications.resnet50 import preprocess_input
 from keras.models import Model
 from keras.layers import Dense
+from keras.callbacks import TensorBoard
 import numpy as np
 import PIL
 
@@ -74,12 +75,17 @@ if __name__ == '__main__':
 
     # fit on one image
     images = preprocess_input(images, mode='tf')
+    tb_callback = keras.callbacks.TensorBoard(log_dir='./logs',
+                                              histogram_freq=0,
+                                              write_graph=True,
+                                              write_images=True)
     history = model.fit(x=np.array(images),
                         y=np.array(labels),
-                        epochs=3,
-                        validation_split=0.2,
+                        epochs=30,
+                        validation_split=0.3,
                         verbose=2,
-                        batch_size=20)
+                        batch_size=50,
+                        callbacks=[tb_callback])
     print(history.history)
 
     # predict
