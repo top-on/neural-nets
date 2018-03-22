@@ -29,7 +29,7 @@ def main():
     # predict
     prediction = model.predict(image)
     n = 10
-    top_n = np.argsort(prediction)[:, -n:][0,:][::-1]
+    top_n = np.argsort(prediction)[:, -n:][0, :][::-1]
 
     # translate classes to labels
     with open('imagenet_classes.txt', 'r') as handle:
