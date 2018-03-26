@@ -11,6 +11,8 @@ from keras.models import Sequential
 from keras.layers import Dense, Dropout, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
+import numpy as np
+from keras.preprocessing.image import load_img, img_to_array
 
 batch_size = 512
 num_classes = 10
@@ -72,3 +74,13 @@ print('time needed for training: {}'.format(time.time() - time_before))
 score = model.evaluate(x_test, y_test, verbose=0)
 print('Test loss:', score[0])
 print('Test accuracy:', score[1])
+
+# test classifying new digit image
+model.input_shape
+img = load_img('data/images/digit_cut.png', target_size=(28, 28),
+               grayscale=True)
+# preprocess image
+img_array = np.array([img_to_array(img) / 255])
+# make prediction from model trained on MNIST
+prediction = model.predict(img_array).argmax() + 1
+print('Predicted number for cropped image: {}'.format(prediction))
