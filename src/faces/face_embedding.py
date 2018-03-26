@@ -21,7 +21,7 @@ vggface = VGGFace(model='resnet50')
 
 # classify image
 img = load_preprocess('src/faces/chen2.jpg')
-preds = vggface.predict(x)
+preds = vggface.predict(img)
 print('Predicted: {};\nConfidence: {}'.format(
     decode_predictions(preds)[0][0][0],
     decode_predictions(preds)[0][0][1]))
