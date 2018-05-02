@@ -13,4 +13,5 @@ Playground for deep learning applications.
 
 * Forecasting energy demand time series
 * The most simple perceptron model, at which training results can be examined
+*
 
