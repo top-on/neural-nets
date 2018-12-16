@@ -1,4 +1,4 @@
-name: tf-cpu
+name: neural-nets
 
 channels:
   - defaults
