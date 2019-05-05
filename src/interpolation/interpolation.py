@@ -1,12 +1,11 @@
 """Testing interpolation of neural net, depending on network architecture."""
 
 import numpy as np
-import tensorflow as tf
+import seaborn as sns
+from matplotlib import pyplot as plt
 from tensorflow.python.keras.layers import Input, Dense
 from tensorflow.python.keras.models import Model
 from tensorflow.python.keras.optimizers import Adam
-import seaborn as sns
-from matplotlib import pyplot as plt
 
 # %% Create synthetic data
 SAMPLE_SIZE = 256
